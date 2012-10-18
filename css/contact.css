@@ -1,0 +1,46 @@
+div#contact_content{
+    color: #ffffff;
+    width: 350px;
+    margin: 270px auto 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+div.contactMedia{
+    color: #666;
+
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+
+div.contactMedia:hover{
+    color: #fff;
+}
+
+
+div#contact_content i{
+    font-size: 28px;
+    margin-right: 20px;
+}
+
+div#contact_content i.last{
+    margin-right: 0;
+}
+
+
+
+div#contact_content div{
+    margin: 10px;
+}
+
+div#contact_skype{
+    margin-bottom: 30px!important;;
+}
+
+div#contact_content span{
+    position: relative;
+    top: -8px;
+}
+
+

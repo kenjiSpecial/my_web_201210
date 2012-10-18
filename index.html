@@ -1,0 +1,1270 @@
+<!DOCTYPE HTML>
+<html lang="en-US" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Kenji Saito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer:400,400italic' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" href="css/social_foundicons.css">
+    <link rel="stylesheet" href="css/general_foundicons.css">
+
+    <link rel="stylesheet" href="css/common.css">
+
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/opening.css">
+
+
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+
+
+</head>
+<body>
+
+<!--roading-->
+<div id="road">
+    ROADING...
+</div>
+
+<!-- opening -->
+<canvas id="weave01"></canvas>
+<canvas id="weave02"></canvas>
+<!--<canvas id="weave03"></canvas>-->
+<canvas id="drawingCircle"></canvas>
+<!-- opening -->
+
+<div id="headerId">
+    <div id="name">Kenji Saito</div>
+    <div id="position">Design + Development</div>
+
+    <div id="Main_Menu" class="hideclass">
+        <div id="about"><a href="#Main_about">About</a></div>
+        <div id="work"><a href="#Main_work">Work</a></div>
+        <div id="contact"><a href="#Main_contact">Contact</a></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<!--------------->
+<!--contaiiner -->
+<div id="container" class="hideclass">
+<!------------------->
+<!-- About Content -->
+<!------------------->
+<div id="about_content" class="content">
+
+    <div id="my_self">
+        <p>Since April 2010, I'v been studying interactive design and development, and made works at IAMAS in Japan.
+            I graduated from IAMAS in March 2012.</p>
+
+        <p>Before IAMAS, I studied environmental engineering at the University of Tokyo.</p>
+        <p>After graduation, I moved to Hamburg, Germany and having experience as the web developer in Hi-Res Hamburg.</p>
+        <p>My Main job in my internship is making visual, shapes, animation, design with JavaScript or openFrameworks for one project.</p>
+
+        <p>I'm good at making visual and interaction with programing such as C++, Action Script3.0, JavaScript,
+            processing. I love using new technology such as Kinect and iPhone.</p>
+        <p>Personally I'm making physical engine library for animation and interaction design using JavaScript.</p>
+    </div>
+
+    <div id="my_carrer">
+        <h3>Experience</h3>
+        <p>11. 2011 - 12.2011 / Developer internship / Cadet</p>
+        <p>06. 2012 - 11.2012 / Web Developer internship / Hi-ReS Hamburg</p>
+    </div>
+
+    <div id="my_skill">
+        <h3>Skill:</h3>
+        <p>HTML, CSS, JavaScript, ActionScript 3.0, Obejective-C, openFrameworks, Processing, openGL, WebGL, openCV, Illustrator, Photoshop</p>
+    </div>
+
+
+</div>
+
+<!------------------->
+<!-- About Content -->
+<!------------------->
+
+
+<!------------------->
+<!-- WORK Content --->
+<!------------------->
+
+<!--About Sub Menu-->
+<div id="work_content" class="hideclass content">
+
+<ul id="sub_menu">
+    <li id="YearList"><a href="" class="sub_menu_list selected">Year</a></li>
+    <li id="TypeList"><a href="" class="sub_menu_list">Type</a></li>
+    <li id="ProgramList"><a href="" class="sub_menu_list">Program</a></li>
+    <li id="ToolList"><a href="" class="sub_menu_list">Tool</a></li>
+</ul>
+<div class="clear"></div>
+
+
+<ul id="subYearList" class="sub_sub_menu display">
+    <li><a href="" data-filter="*" class="selected">All</a></li>
+    <li><a href="" data-filter=".year2010">2010</a></li>
+    <li><a href="" data-filter=".year2011">2011</a></li>
+    <li><a href="" data-filter=".year2012">2012</a></li>
+</ul>
+
+<ul id="subTypeList" class="sub_sub_menu displayNone">
+    <li><a href="" data-filter="*">All</a></li>
+    <li><a href="" data-filter=".type_web">Website</a></li>
+    <li><a href="" data-filter=".type_flash">Flash</a></li>
+    <li><a href="" data-filter=".type_iphone">iPhoneApp</a></li>
+    <li><a href="" data-filter=".type_insta">Installation</a></li>
+    <li><a href="" data-filter=".type_game">Game</a></li>
+    <li><a href="" data-filter=".type_visual">Visual</a></li>
+    <li><a href="" data-filter=".type_canvas">Canvas</a></li>
+    <li><a href="" data-filter=".type_gl">OpenGL / WebGL</a></li>
+</ul>
+
+<ul id="subProgramList" class="sub_sub_menu displayNone">
+    <li><a href="">All</a></li>
+    <li><a href="" data-filter=".program_html">HTML / CSS</a></li>
+    <li><a href="" data-filter=".program_js">JavaScript</a></li>
+    <li><a href="" data-filter=".program_php">Php / SQL</a></li>
+    <li><a href="" data-filter=".program_as">ActionScript</a></li>
+    <li><a href="" data-filter=".program_c">C++</a></li>
+    <li><a href="" data-filter=".program_oc">Objective-C</a></li>
+</ul>
+
+<ul id="subToolList" class="sub_sub_menu displayNone">
+    <li><a href="" data-filter="*">All</a></li>
+    <li><a href="" data-filter=".tool_coda">Coda</a></li>
+    <li><a href="" data-filter=".tool_xcode">XCode</a></li>
+    <li><a href="" data-filter=".tool_vs">Visual Studio</a></li>
+    <li><a href="" data-filter=".tool_processing">Processing</a></li>
+    <li><a href="" data-filter=".tool_flashbuilder">Flash Builder</a></li>
+    <li><a href="" data-filter=".tool_photoshop">Illustrator / Photoshop</a></li>
+    <li><a href="" data-filter=".tool_kinect">Kinect / WebCam</a></li>
+    <li><a href="" data-filter=".tool_webstorm">WebStorm</a></li>
+</ul>
+
+<div class="clear"></div>
+
+<!--About Sub Menu-->
+
+<!---->
+<div id="workDetail">
+
+    <div id="workDetailContent">
+
+
+    </div>
+    <div class="clear"></div>
+    <div id="work_guide">
+        <a href="" id="workbefore">&laquo</a>
+        <a href="" id="worknext">&raquo</a>
+    </div>
+
+
+    <div class="clear"></div>
+
+</div>
+
+
+<div id="works">
+<div class="work year2010 type_web program_html tool_coda">
+    <a href="*" id="work0"><img src="img/openhouse_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/openhouse.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Website</div>
+            <div class="date">07 / 2010</div>
+
+            <div class="type">Type: Website</div>
+            <div class="program">Program: HTML, CSS</div>
+            <div class="tool">Tool: Coda</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I made this website for the first time in my life.</p>
+
+                <p>I entered IAMAS in March 2010, I started to learn the design and program, and made my works.</p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2010 type_web program_php program_html tool_coda">
+    <a href="*" id="work1"><img src="img/ikedo_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://ikedo.info/" target="_blank"><img src="img/ikedo.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Website</div>
+            <div class="date">10 / 2010</div>
+
+            <div class="type">Type: Website</div>
+            <div class="program">Program: HTML, CSS, PHP</div>
+            <div class="tool">Tool: Coda</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This website was the client work.</p>
+
+                <p>This was my first time to make the website using WordPress so that the client can update it by
+                    himself.
+                </p>
+            </div>
+            <div class="url">url: <a href="http://ikedo.info/" target="_blank">http://ikedo.info/</a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2010 type_flash program_as tool_flashbuilder">
+    <a href="*" id="work2"><img src="img/3DCLOCK_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/3DClock/" target="_blank"><img src="img/3DCLOCK.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">3D Clock</div>
+            <div class="date">12 / 2010</div>
+
+            <div class="type">Type: Flash_Site</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I started to study ActionScript from September 2010.</p>
+
+                <p>I made this 3D Calendar as my personal work. I studied Action Script and typography at that time.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/3DClock/" target="_blank">http://kenji-special.com/3DClock/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2010 type_flash program_as tool_flashbuilder">
+    <a href="*" id="work3"><img src="img/3DCal_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/2011Calendar/" target="_blank"><img src="img/3DCal.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">3D Calendar</div>
+            <div class="date">12 / 2010</div>
+
+            <div class="type">Type: Flash_Site</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I made this work as the homework in the class of Flash at IAMAS. The theme of the homework was
+                    "clock".
+                </p>
+
+                <p>3D library was used for setting x-axis to seconds, y-axis to minutes, z-axis to hours.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/2011Calendar/" target="_blank">http://kenji-special.com/2011Calendar/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_insta program_as tool_kinect tool_flashbuilder">
+    <a href="*" id="work4"><img src="img/WBC_sub.jpg" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="https://vimeo.com/29264863" target="_blank"><img src="img/WBC.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">believe Clock?</div>
+            <div class="date">01 / 2011</div>
+
+            <div class="type">Type: Installation</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder, WebCam</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>My annual work in 2010, IAMAS.</p>
+
+                <p>I made several clocks as AR. You cannot see the 3D clock directly, but can it through the displays.
+                    Furthermore, you can see it from the whole angles through displays.
+                </p>
+            </div>
+            <div class="url">url: <a href="https://vimeo.com/29264863" target="_blank">https://vimeo.com/29264863</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_insta program_as tool_flashbuilder tool_kinect">
+    <a href="*" id="work5"><img src="img/AR_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/AR.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">AR Ranger</div>
+            <div class="date">02 / 2012</div>
+
+            <div class="type">Type: Workshop</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder, WebCam</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>We joined the biggest workshop festival for children in Japan.</p>
+
+                <p>The participants could become the hero or heroine as they pain using AR.</p>
+
+                <p>We got the jury award in this festival.</p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_iphone program_oc tool_xcode tool_photoshop">
+    <a href="*" id="work6"><img src="img/rainborderless_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/rainborderless.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Rainborderless</div>
+            <div class="date">07 / 2011</div>
+
+            <div class="type">Type: iPhoeApp</div>
+            <div class="program">Program: Objective-C</div>
+            <div class="tool">Tool: XCode, Illustrator</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I made this work in the course project, 2011 at IAMAS. I made concept, design, development of it.</p>
+
+                <p>This iPhone application give a chance to start communication for foreign travellers who face
+                    accidents in
+                    Japan.
+                </p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_web type_flash program_html program_as tool_flashbuilder">
+    <a href="*" id="work7"><img src="img/denpon_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/DenPon/" target="_blank"><img src="img/denpon.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">DENPON</div>
+            <div class="date">07 / 2011</div>
+
+            <div class="type">Type: Website, Flash_Site</div>
+            <div class="program">Program: HTML, CSS, PHP, SQL, ActionScript</div>
+            <div class="tool">Tool: Coda, Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>Denpon is web application, and composed of two part, game and website.</p>
+
+                <p>You can make manga for three minutes, share it, and read several mangas in the website.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/DenPon/" target="_blank">http://kenji-special.com/DenPon/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_web program_html program_js program_php tool_coda tool_photoshop">
+    <a href="*" id="work8"><img src="img/mk_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://slv.co.jp/work/" target="_blank"><img src="img/mk.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Website</div>
+            <div class="date">08 / 2011</div>
+
+            <div class="type">Type: Website</div>
+            <div class="program">Program: HTML, CSS, JavaScript, PHP</div>
+            <div class="tool">Tool: Coda, Photoshop, Fireworks</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This website was the client work of small coating company.</p>
+
+                <p>The client can update their product and their activities by themselves.</p>
+            </div>
+            <div class="url">url: <a href="http://slv.co.jp/work/" target="_blank">http://slv.co.jp/work/</a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011, type_web, program_html, program_js, tool_coda, tool_photoshop">
+    <a href="*" id="work9"><img src="img/kenji-special_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/OLD" target="_blank"><img src="img/kenji-special.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Website</div>
+            <div class="date">08 / 2011</div>
+
+            <div class="type">Type: Website</div>
+            <div class="program">Program: HTML, CSS, JavaScript</div>
+            <div class="tool">Tool: Coda, Photoshop</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This was my website.</p>
+
+                <p>You can see my profile and works in a single page.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/OLD"
+                                     target="_blank">http://kenji-special.com/OLD</a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011, type_insta, program_c, tool_xcode, tool_kinect">
+    <a href="*" id="work10"><img src="img/MovingArea_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="https://vimeo.com/31029246" target="_blank"><img src="img/MovingArea.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Moving Area</div>
+            <div class="date">10 / 2011</div>
+
+            <div class="type">Type: Installation</div>
+            <div class="program">Program: C++(oF)</div>
+            <div class="tool">Tool: XCode, WebCam</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This work is a study for my final project using Voronoi diagram</p>
+
+                <p>You can walk as you like, the floor's shape changes like weave. I used openCV for detecting.</p>
+            </div>
+            <div class="url">url: <a href="https://vimeo.com/31029246" target="_blank">https://vimeo.com/31029246</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_visual program_as tool_flashbuilder">
+    <a href="*" id="work11"><img src="img/graVis_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://wonderfl.net/c/th39" target="_blank"><img src="img/graVis.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Visual design</div>
+            <div class="date">11 / 2011</div>
+
+            <div class="type">Type: Visual_Design</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I made this visual design for graduation exhibition. I made this work by Action Script.</p>
+
+                <p>The theme of the graduation is "open". I made it like the every different students talent open as the
+                    flowers opens.Every flower's color and shape is different.
+                </p>
+            </div>
+            <div class="url">url: <a href="http://wonderfl.net/c/th39" target="_blank">http://wonderfl.net/c/th39</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_iphone program_oc tool_photoshop tool_xcode">
+    <a href="*" id="work12"><img src="img/IphoneUI_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://bit.ly/IkGyag" target="_blank"><img src="img/IphoneUI.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">iPhone App</div>
+            <div class="date">11 / 2011</div>
+
+            <div class="type">Type: iPhoneApp</div>
+            <div class="program">Program: Objective-C</div>
+            <div class="tool">Tool: XCode, Illustrator</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This iPhone application was the client work of Japanese company.</p>
+
+                <p>You can study the exam for the Japanese professional property evaluator by it.</p>
+            </div>
+            <div class="url">url: <a href="http://bit.ly/IkGyag" target="_blank">http://bit.ly/IkGyag</a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011, type_insta, program_c, tool_xcode, tool_webstorm">
+    <a href="*" id="work13"><img src="img/TrackDance_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="https://vimeo.com/33692668" target="_blank"><img src="img/TrackDance.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Tracking Dance</div>
+            <div class="date">12 / 2011</div>
+
+            <div class="type">Type: Installation</div>
+            <div class="program">Program: C++</div>
+            <div class="tool">Tool: XCode, Kinect</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my personal work　of real time dance movie using Kinect.</p>
+
+                <p>The dancer is detected and the movie is taken in by Kinect, and change the effect to it in real time
+                    using Kinect.
+                </p>
+            </div>
+            <div class="url">url: <a href="https://vimeo.com/33692668" target="_blank">https://vimeo.com/33692668</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2011 type_insta program_c tool_xcode tool_kinect">
+    <a href="*" id="work14"><img src="img/BeatWeaveDance_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="https://vimeo.com/34111020" target="_blank"><img src="img/BeatWeaveDance.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">BeatWaveDancing</div>
+            <div class="date">12 / 2011</div>
+
+            <div class="type">Type: Installation</div>
+            <div class="program">Program: C++</div>
+            <div class="tool">Tool: XCode, Kinect</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>you can create beats and tunes as you dance. I love BeatWeave, iPhone App, and made it as Kinect
+                    version.
+                </p>
+            </div>
+            <div class="url">url: <a href="https://vimeo.com/34111020" target="_blank">https://vimeo.com/34111020</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_visual program_as tool_flashbuilder">
+    <a href="*" id="work15"><img src="img/GreetingCard_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/GreetingCard.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Greeting Card</div>
+            <div class="date">01 / 2012</div>
+
+            <div class="type">Type: Visual_Design</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I made the illustration of dragon, this year's zodiac animal, and traditional Japanese greeting with
+                    number.
+                </p>
+
+                <p>It was featured on the most prestigious web design magazine in Japan.</p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_flash program_as tool_flashbuilder">
+    <a href="*" id="work16"><img src="img/interactiveCV_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/interactiveCV.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">interactive CV</div>
+            <div class="date">01 / 2012</div>
+
+            <div class="type">Type: Flash_Site</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my personal work.Sorry, this is Japanese CV.</p>
+
+                <p>In this CV, you can check only small part of information.</p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_game program_c program_as tool_vs tool_flashbuilder tool_kinect">
+    <a href="*" id="work17"><img src="img/VoronoiBody_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="https://vimeo.com/35828142" target="_blank"><img src="img/VoronoiBody.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Voronoi Body</div>
+            <div class="date">02 / 2012</div>
+
+            <div class="type">Type: Game</div>
+            <div class="program">Program: ActionScript, C#</div>
+            <div class="tool">Tool: Visual Studio, Flash Builder, Kinect</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my final project at IAMAS. It is game using Voronoi diagram with Kinect. You can play
+                    touching
+                    the point with your body part. As the level goes up, you can move your body harder.
+                </p>
+
+                <p>This work was featured on the most prestigious web design magazine in Japan.</p>
+            </div>
+            <div class="url">url: <a href="https://vimeo.com/35828142" target="_blank">https://vimeo.com/35828142</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_visual tool_processing">
+    <a href="*" id="work18"><img src="img/IAMASONIC_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/IAMASONIC.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Visual design</div>
+            <div class="date">02 / 2012</div>
+
+            <div class="type">Type: Visual_Design</div>
+            <div class="program">Program: Processing</div>
+            <div class="tool">Tool: Processing</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my personal work for the graduation event.</p>
+
+                <p>Even though this graphic is for print, I made it with processing so that it looks dynamic in the
+                    print.
+                </p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_visual tool_photoshop">
+    <a href="*" id="work19"><img src="img/iconDesign_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="" target="_blank"><img src="img/iconDesign.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Icon design</div>
+            <div class="date">03 / 2012</div>
+
+            <div class="type">Type: Visual_Design</div>
+            <div class="program">Program:</div>
+            <div class="tool">Tool: Illustrator, Photoshop</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I made the iPhone App icon design as the client work.</p>
+
+                <p>I made four icon designs and the lunch display designs of iPhone Apps in March and April in 2012.</p>
+            </div>
+            <div class="url">url: <a href="" target="_blank"></a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_web program_as tool_flashbuilder">
+    <a href="*" id="work20"><img src="img/kenjiFullFlashSite_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/Fl/" target="_blank"><img src="img/kenjiFullFlashSite.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">My Portfolio_test_site</div>
+            <div class="date">04 / 2012</div>
+
+            <div class="type">Type: Flash_Site</div>
+            <div class="program">Program: ActionScript</div>
+            <div class="tool">Tool: Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This was my first time to made full flash site.</p>
+
+                <p>I made big mistake in it, it's hard to access information about me. I made new flash full site as
+                    soon as
+                    possible.
+                </p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/Fl/"
+                                     target="_blank">http://kenji-special.com/Fl/</a></div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_web type_flash program_html program_js program_as tool_coda tool_flashbuilder">
+    <a href="*" id="work21"><img src="img/kenjiNewWeb_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/ks00/" target="_blank"><img src="img/kenjiNewWeb.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">My Portfolio_site</div>
+            <div class="date">05 / 2012</div>
+
+            <div class="type">Type: Website, Flash_Site</div>
+            <div class="program">Program: HTML, CSS, JavaScript, ActionScript</div>
+            <div class="tool">Tool: Coda, Flash Builder</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This was old my web site.</p>
+
+                <p>You can see my works from both html version and flash version. Both of design layout the same, but
+                    the
+                    each color is opposite.
+                </p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/ks00/" target="_blank">http://kenji-special.com/ks00/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_web program_html type_canvas program_js tool_webstorm">
+    <a href="*" id="work22"><img src="img/CanvasImageManupulate_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/Canvas/ImageManipulation/" target="_blank"><img
+                    src="img/CanvasImageManupulate.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Canvas Image Manupulation Gallery</div>
+            <div class="date">06 / 2012</div>
+
+            <div class="type">Type: Website, Canvas</div>
+            <div class="program">Program: HTML, CSS, JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my test gallery site for image manipulation using JavaScript.</p>
+
+                <p>All manipulated images are shown on canvas after clicking the buttons. I made this site using twitter
+                    bootstrap.
+                </p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/Canvas/ImageManipulation/" target="_blank">http://kenji-special.com/Canvas/ImageManipulation/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_canvas program_js type_canvas tool_webstorm">
+    <a href="*" id="work23"><img src="img/NoisePractice_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/Canvas/NoisePractice/" target="_blank"><img src="img/NoisePractice.png"
+                                                                                          alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Perlin Noise Practice</div>
+            <div class="date">06 / 2012</div>
+
+            <div class="type">Type: Canvas</div>
+            <div class="program">Program: JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my practice in my intership for studying perlin noise using JavaScrpt.</p>
+
+                <p>I visualized the process of perlin noise on canvas</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/Canvas/NoisePractice/" target="_blank">http://kenji-special.com/Canvas/NoisePractice/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_gl program_c tool_xcode">
+    <a href="*" id="work24"><img src="img/metaball_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://www.youtube.com/watch?v=mrdGntstokM/" target="_blank"><img src="img/metaball.png"
+                                                                                       alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Metaball prototype</div>
+            <div class="date">07 / 2012</div>
+
+            <div class="type">Type: OpenGL</div>
+            <div class="program">Program: C++(oF)</div>
+            <div class="tool">Tool: Xcode</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>I developed metaball for one project using open Frameworks and openGL in my internship.</p>
+
+                <p>I made GUI controller for manupulating metaball.</p>
+            </div>
+            <div class="url">url: <a href="http://www.youtube.com/watch?v=mrdGntstokM/" target="_blank">http://www.youtube.com/watch?v=mrdGntstokM/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_canvas program_js tool_webstorm">
+    <a href="*" id="work25"><img src="img/cloud_prototype_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/Canvas/Cloud/beta2/" target="_blank"><img src="img/cloud_prototype.png"
+                                                                                        alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">smoke effect test</div>
+            <div class="date">07 / 2012</div>
+
+            <div class="type">Type: Canvas</div>
+            <div class="program">Program: JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is the effect test for smoke on canvas</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/Canvas/Cloud/beta2/" target="_blank">http://kenji-special.com/Canvas/Cloud/beta2/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_canvas type_web program_html program_js tool_webstorm">
+    <a href="*" id="work26"><img src="img/dynamicfluid_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/Canvas/Fluid/" target="_blank"><img src="img/dynamicfluid.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">Dynamic Fluid Visual Experiment</div>
+            <div class="date">08 / 2012</div>
+
+            <div class="type">Type: Website, Canvas</div>
+            <div class="program">Program: HTML, CSS, JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is the experimental visual works for sudying dynamic fluid on canvas.</p>
+
+                <p>You can see what the visual is like when you click the button in this site.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/Canvas/Fluid/" target="_blank">http://kenji-special.com/Canvas/Fluid/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_gl program_js tool_webstorm">
+    <a href="*" id="work27"><img src="img/webgl_exp01_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/webGL/exp01/" target="_blank"><img src="img/webgl_exp01.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">WebGL experiment 01</div>
+            <div class="date">08 / 2012</div>
+
+            <div class="type">Type: WebGL</div>
+            <div class="program">Program: JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my first WebGL work. I used three.js for developing it.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/webGL/exp01/" target="_blank">http://kenji-special.com/webGL/exp01/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_gl program_js tool_webstorm">
+    <a href="*" id="work28"><img src="img/webgl_exp02_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/webGL/exp02/" target="_blank"><img src="img/webgl_exp02.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">WebGL experiment 02</div>
+            <div class="date">09 / 2012</div>
+
+            <div class="type">Type: WebGL</div>
+            <div class="program">Program: JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my second WebGL work. I used three.js for developing it.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/webGL/exp02/" target="_blank">http://kenji-special.com/webGL/exp02/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_canvas type_web program_html program_js tool_webstorm">
+    <a href="*" id="work29"><img src="img/js_vis_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/Js_Vis/" target="_blank"><img src="img/js_vis.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">JS_Visual_Exp()</div>
+            <div class="date">09 / 2012</div>
+
+            <div class="type">Type: Website, Canvas</div>
+            <div class="program">Program: HTML, CSS, JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>JS_Visual_Exp() is the gallery for canvas experiments and practice I've made ever.</p>
+
+                <p>You can see my works selecting date or category or type.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/Js_Vis/" target="_blank">http://kenji-special.com/Js_Vis/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+
+
+<div class="work year2012 type_gl program_js tool_webstorm">
+    <a href="*" id="work30"><img src="img/webgl_exp03_sub.png" alt=""></a>
+
+    <div class="workView">
+        <div class="detailImage">
+            <a href="http://kenji-special.com/webGL/particle01/" target="_blank"><img src="img/webgl_exp03.png" alt=""></a>
+        </div>
+        <div class="detailDescription">
+            <div class="title">WebGL particle 01</div>
+            <div class="date">09 / 2012</div>
+
+            <div class="type">Type: WebGL</div>
+            <div class="program">Program: JavaScript</div>
+            <div class="tool">Tool: WebStorm</div>
+            <div class="blackline"></div>
+
+            <div class="description">
+                <p>This is my WebGL work. I used three.js for developing it.</p>
+            </div>
+            <div class="url">url: <a href="http://kenji-special.com/webGL/particle01/" target="_blank">http://kenji-special.com/webGL/particle01/</a>
+            </div>
+        </div>
+        <a href="#" class="workDelete" target="_blank">
+            <i class="foundicon-remove workRemove"></i>
+        </a>
+    </div>
+</div>
+
+<!-- ---- ---- ----- ---- ---- ----- ---- ---- ----- -->
+</div>
+
+
+</div>
+
+
+<!------------------->
+<!-- WORK Content -->
+<!------------------->
+
+<!------------------->
+<!-- Contact Content -->
+<!------------------->
+<div id="contact_content" class="hideclass content">
+    <div id="contact_mail" class="contactMedia"><i class="foundicon-mail"></i><span>k.saito.1985@gmail.com</span></div>
+    <div id="contact_skype" class="contactMedia"><i class="Social-skype"></i><span>s.kenken1985</span></div>
+
+    <div class="contact_icon">
+        <a href="http://www.facebook.com/kenjiSpecial" target="_blank"><i class="Social-facebook"></i></a>
+        <a href="https://twitter.com/kenji_special" target="_blank"><i class="Social-twitter"></i></a>
+        <a href="https://github.com/kenjiSpecial" target="_blank"><i class="Social-github"></i></a>
+        <a href="https://vimeo.com/user8580144/videos" target="_blank"><i class="Social-vimeo"></i></a>
+        <a href="http://www.linkedin.com/pub/kenji-saito/40/273/5a3" target="_blank"><i class="Social-linkedin"></i></a>
+        <a href="http://kenji-special.com/blog" target="_blank"><i class="Social-wordpress last"></i></a>
+    </div>
+
+</div>
+<!------------------->
+<!-- Contact Content -->
+<!------------------->
+
+<div id="footer">
+    <a href="#">TOP</a>
+</div>
+</div>
+<!--contaiiner -->
+
+</body>
+
+<script type="text/javascript" src="js/circle.js"></script>
+<script type="text/javascript" src="js/open.js"></script>
+
+<script type="text/javascript" src="js/MainMenu_script.js"></script>
+<script type="text/javascript" src="js/toTop_script.js"></script>
+<script type="text/javascript" src="js/workMenu_script.js"></script>
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28913085-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+</html>

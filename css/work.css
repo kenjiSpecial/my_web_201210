@@ -1,0 +1,333 @@
+
+div#work_content {
+    width: 100%;
+}
+
+/************************/
+/* below li*/
+/************************/
+
+li a:hover{
+    color: #ffffff;
+    text-decoration: none !important;
+
+    transition: color 0.5s;
+    -moz-transition: color 0.5s; /* Firefox 4 */
+    -webkit-transition: color 0.5s; /* Safari and Chrome */
+    -o-transition: color 0.5s; /* Opera */
+}
+
+li.selected a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/************************/
+/* below the main contest*/
+/************************/
+
+
+
+/* subMenuList */
+ul#sub_menu {
+    text-decoration: none;
+    list-style: none;
+
+    height: 18px;
+    width: 265px;
+
+    /*margin: 0 auto;*/
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+
+    font-size: 20px;
+    padding: 0;
+}
+
+ul#sub_menu li {
+    color: #ffffff;
+    float: left;
+    margin-right: 18px;
+    letter-spacing: 1px;
+
+}
+
+ul#sub_menu li:last-child {
+    margin-right: 0px;
+}
+
+ul.sub_sub_menu{
+    text-decoration: none;
+    list-style: none;
+
+    height: 20px;
+
+    font-size: 18px;
+
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    padding: 0;
+}
+
+ul.displayNone{
+    display: none;
+}
+
+ul.sub_sub_menu li{
+    float: left;
+    margin-right: 18px;
+    letter-spacing: 1px;
+}
+
+
+ul#subYearList{
+    width: 218px;;
+}
+
+ul#subToolList{
+    width: 1010px;
+}
+
+ul#subProgramList{
+    width: 670px;
+}
+
+ul#subTypeList{
+    width: 800px;
+}
+
+
+ul.sub_sub_menu li:last-child {
+    margin-right: 0;
+}
+
+ul#subsubMenuList li:last-child {
+    margin-right: 0;
+}
+
+/*-----------------*/
+
+/***************/
+/* about works */
+/***************/
+
+
+
+div#workDetail {
+    color: #000;
+    background-color: #ffffff;
+
+    overflow: hidden;
+    height: 0px;
+
+
+}
+
+
+div#workDetailContent {
+    width: 1040px;
+    height: 400px;
+    margin: auto;
+    padding-top: 30px;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+
+
+/* workguide */
+div#work_guide{
+    width: 1040px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+
+div#work_guide a#worknext{
+    float: right;
+}
+
+div#work_guide a#workbefore{
+    float: left;
+}
+
+div#work_guide a{
+    color: #ccc;
+}
+
+div#work_guide a:hover{
+    color: #000;
+}
+
+/***************/
+/* about opac */
+/***************/
+
+div.workView{
+    display: none;
+}
+
+
+div.detailImage {
+    float: left;
+    width: 600px;
+    margin-right: 40px;
+}
+
+div.detailDescription {
+    width: 400px;
+    float: left;
+}
+
+div.title {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+div.date {
+    margin-bottom: 14px;
+}
+
+div.type{
+    margin-bottom: 6px;
+}
+
+div.tool {
+    margin-bottom: 6px;
+}
+
+div.program {
+    margin-bottom: 6px;
+}
+
+div.description {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.blackline {
+    margin-top: 15px;
+    background-color: #000;
+    height: 1px;
+    width: 80px;
+}
+
+div.url {
+    font-size: 16px;
+}
+
+/***************/
+/* about works */
+/***************/
+
+div#works {
+    width: 1040px;
+    margin: 50px auto 0;
+}
+
+div.work {
+    width: 260px;
+    height: 173px;
+    overflow: hidden;
+}
+
+div.work a{
+    position: relative;
+
+    opacity: 0.4;
+
+
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+}
+
+div.work a:hover{
+
+    opacity:1;
+
+}
+
+div.work img {
+    width: 260px;
+    max-width: 1000px;
+    max-height: 1000px;
+    height: 173px
+}
+
+div.url a{
+    color: #ccc;
+}
+
+div.url a:hover{
+    color: #000 !important;
+}
+
+div#workDetailContent a img{
+
+    opacity: 1;
+
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+}
+
+div#workDetailContent a img:hover{
+    opacity: 0.8;
+}
+
+.strokestyle {
+    width: 40px;
+    height: 1px;
+    z-index: 0;
+    position: absolute;
+    background-color: #ffffff;
+}
+
+/*.isotope css */
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    transition-property: transform, opacity;
+}
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}

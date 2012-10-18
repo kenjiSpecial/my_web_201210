@@ -1,0 +1,29 @@
+div#about_content{
+    color: #ffffff;
+    width: 600px;
+    margin: 270px auto 20px;
+}
+
+
+
+div#about_content div{
+    font-size: 14px;
+    margin-bottom: 80px;
+    /*letter-spacing: 1px;*/
+}
+
+div#about_content p{
+    line-height: 1.5em;
+    margin-bottom: 8px;
+    margin-top: 0px;
+
+}
+
+div#portrait{
+    margin-bottom: 45px!important;
+}
+
+div#portrait img{
+}
+
+

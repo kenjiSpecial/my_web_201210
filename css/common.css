@@ -1,0 +1,200 @@
+body {
+    overflow: auto;
+    background-color: #ffffff;
+
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+div#container {
+    width: 100%;
+    margin-top: 220px;
+}
+
+div#Main_Menu{
+
+}
+
+/******************/
+/* header css area*/
+/******************/
+div#headerId{
+    position: absolute;
+    top: 20px;
+
+    width: 100%;
+
+    opacity: 0;
+}
+
+
+div#name {
+
+    /* changing the position value */
+    position: static;
+
+    color: #ffffff;
+
+    font-size: 50px;
+    letter-spacing: 4px;
+
+    font-style: normal;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    line-height: 1em;
+
+    /* adding */
+    text-align: center;
+}
+
+div#position {
+
+    /* changing the position value */
+    position: static;
+
+    color: #ffffff;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+
+    font-style: italic;
+
+    line-height: 1em;
+
+    /* adding */
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#Main_Menu {
+    position: static;
+    /*color: #ccc;*/
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+
+    width: 270px;
+    height: 25px;
+
+    font-size: 25px;
+    letter-spacing: 1px;
+
+    font-style: normal;
+
+    line-height: 1em;
+
+}
+
+div#about {
+    float: left;
+    margin-right: 20px;
+}
+
+div#work {
+    float: left;
+    margin-right: 20px;
+}
+
+div#contact {
+    float: left;
+}
+
+a.selected {
+    color: #ffffff;
+}
+
+div a {
+    text-decoration: none;
+    color: #666;
+
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+}
+
+div a:hover {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+/* footer */
+div#footer {
+    height: 240px;
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/************/
+/* icon font*/
+/************/
+
+i.foundicon-remove{
+    font-size: 14px;
+}
+
+i.workRemove{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    color: #cccccc;
+}
+
+a i.workRemove{
+    -webkit-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    -o-transition: color 0.4s;
+
+    color: #cccccc;
+}
+
+a:hover i.workRemove{
+    color: #000000;
+
+}
+
+/* dispaly or hide*/
+.displayclass{
+display: block;
+}
+
+.hideclass{
+display: none;
+}
+
+/* clear class*/
+
+div.clear {
+    clear: both;
+}
+
+/**/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #222;
+    height: 30px;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-corner {
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+}
